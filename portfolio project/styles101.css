@@ -1,0 +1,54 @@
+
+body {
+
+ background-image:url(images/grey\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1   {color: white;
+background-color : rgba(92, 75, 75, 0.16);
+font-family:  'Arial', sans-serif;
+}
+h2{
+color: white;
+padding:0%;
+background-color:rgba(92, 75, 75, 0.16);
+font-size: 28px;
+}
+h3{
+color: white;
+padding:0%;
+background-color:rgba(92, 75, 75, 0.16);
+font-size: 28px ;
+}
+h4{
+color: white;
+padding:0%;
+background-color:rgba(92, 75, 75, 0.16);
+font-size: 28px ;
+}
+h5{
+color: white;
+padding:0%;
+background-color:rgba(92, 75, 75, 0.16);
+font-size: 28px ;
+}
+p {color: white;
+font-size: 120%;}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
